@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+
+}
+
+* {
+    color: rgb(221, 34, 34);
+}
+
+.mymy {
+    color: brown;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hav {
+    color: aqua;
+}
+
+.two {
+    background-color: blue;
+}
+
+.my-image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('./download.jpeg');
+}
+
+.menu {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 25px;
+
+}
+
+.item {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+.item:hover {
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
+.flex-container {
+    width: 80%;
+    height: 80%;
+    background-color: aquamarine;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container p {
+    height: 100px;
+    width: 100px;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
