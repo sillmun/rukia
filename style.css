@@ -1,9 +1,11 @@
 body {
     margin: 0;
-
+    font-family: 'Lucida Sans';
+    background-image: url('./download.jpeg'); 
+    background-size: cover;
 }
 
-* {
+.niav {
     color: rgb(221, 34, 34);
 }
 
@@ -39,6 +41,7 @@ body {
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 25px;
+    
 
 }
 
@@ -81,3 +84,40 @@ body {
     background-color: blue;
 }
 
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-section {
+    background-color: azure;
+    width: fit-content;
+    padding: 40px;
+    margin: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 7px 8px 5px;;
+    
+}
+
+.content-section h2 {
+    font-size: 24px;
+}
+
+.content-section h3 {
+    font-size: 18px;
+}
+
+.content-section ul {
+    list-style: armenian;
+}
+
+.content-section p {
+    margin: 5px;
+}
+
+.right {
+    align-self: flex-end;
+    background-color: blanchedalmond;
+
+}
