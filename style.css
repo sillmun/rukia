@@ -29,6 +29,11 @@ body {
     background-image: url('./download.jpeg');
 }
 
+.menu-item:hover{
+    background-color: aquamarine;
+    border-radius: 30px;
+}
+
 .menu {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
@@ -119,5 +124,9 @@ body {
 .right {
     align-self: flex-end;
     background-color: blanchedalmond;
+
+}
+
+.active {
 
 }
